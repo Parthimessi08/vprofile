@@ -78,11 +78,9 @@
         </dependency>
 
         <dependency>
-	<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
-            <scope>provided</scope>
+    	   <groupId>jakarta.servlet</groupId>
+           <artifactId>jakarta.servlet-api</artifactId>
+           <version>4.0.3</version>
         </dependency>
 
         <dependency>
@@ -104,11 +102,10 @@
 	     <scope>test</scope>
 	</dependency>
 	<dependency>
-   	     <groupId>jakarta.servlet</groupId>
-    	     <artifactId>jakarta.servlet-api</artifactId>
-    	     <version>5.0.0</version> <!-- Or use the version that's compatible with your setup -->
-    	     <scope>provided</scope>
-	</dependency>
+    	   <groupId>jakarta.servlet</groupId>
+           <artifactId>jakarta.servlet-api</artifactId>
+           <version>4.0.3</version>
+        </dependency>
 		
         <dependency>
             <groupId>ch.qos.logback</groupId>
